@@ -1,0 +1,83 @@
+.main{
+	border: 2px solid black;
+	height: 850px;
+	width: 420px;
+}
+.header{
+        border: ;
+        height: 120px;
+       }
+
+ .logo1{
+
+ 	border: ;
+ 	height: 100px;
+ 	width: 250px;
+ 	background-image: url("img/oris.jpg");
+ 	margin-top:10px;
+ 	background-size: 210px 100px;
+ 	background-repeat: no-repeat;
+ 
+  }
+  .app{
+
+       }
+ 
+.personal{
+	     border: ;
+	     text-align: center;
+        }
+.container{
+          border: ;
+          height: 600px;
+          margin-left:px;
+          font-size:16px ;
+
+        }
+ .footer{
+          border: 1px solid black;
+          height: 100px;
+          padding-top: 5px;
+          background-image: url("img/contact.jpg");
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          }
+ @media(max-width: 600px){
+   .main{
+		width: 100%;
+		height: 752px;
+		flex-direction: column;
+		flex: 100%;
+	}
+	.header{
+		width:100%;
+		height:70px;
+		flex: 100%;
+	}
+
+    .logo1{
+
+ 	border: ;
+ 	height: 55px;
+ 	width: 50%;
+ 	background-image: url("img/oris.jpg");
+ 	margin-top:10px;
+ 	background-size: 125px 50px;
+ 	background-repeat: no-repeat;
+ 
+  }
+  .app{
+       font-size: 18px;
+       padding-left:20px;
+     }
+  .container{
+          border: ;
+          height: 586px;
+          width: 100%;
+          margin-left:
+        }
+  .footer{
+          border: ;
+          height: 72px;
+          padding-top:px;
+          }
